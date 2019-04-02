@@ -2565,6 +2565,7 @@ Transform:
   m_Children:
   - {fileID: 1605808743}
   - {fileID: 1424730691}
+  - {fileID: 1717102765}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2891,7 +2892,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1424730691
 Transform:
   m_ObjectHideFlags: 0
@@ -3366,7 +3367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1605808743
 Transform:
   m_ObjectHideFlags: 0
@@ -3603,6 +3604,53 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1705160172}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1717102764
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1087743606}
+    m_Modifications:
+    - target: {fileID: 4797526776022798, guid: 8814e1f9b1568f648a2b0ec5e6b841a3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797526776022798, guid: 8814e1f9b1568f648a2b0ec5e6b841a3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797526776022798, guid: 8814e1f9b1568f648a2b0ec5e6b841a3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797526776022798, guid: 8814e1f9b1568f648a2b0ec5e6b841a3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797526776022798, guid: 8814e1f9b1568f648a2b0ec5e6b841a3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797526776022798, guid: 8814e1f9b1568f648a2b0ec5e6b841a3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797526776022798, guid: 8814e1f9b1568f648a2b0ec5e6b841a3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797526776022798, guid: 8814e1f9b1568f648a2b0ec5e6b841a3, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8814e1f9b1568f648a2b0ec5e6b841a3, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &1717102765 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4797526776022798, guid: 8814e1f9b1568f648a2b0ec5e6b841a3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1717102764}
 --- !u!1 &1776154488
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,7 +4044,7 @@ MonoBehaviour:
   singleWidth: 80
   oUseContPoseEst: 1
   oConfCutOff: 0.5
-  multiFileName: ultrasound.dat
+  multiFileName: ultrasound_dodec.dat
   oMinSubMarkers: 0
   oMinConfSubMatrix: 0.5
   oMinConfSubPattern: 0.5
